@@ -9,3 +9,4 @@ git reset --hard HEAD^
 git reflog
 git reset --hard 提交id
 注意：git add是把修改的内容从工作区添加到暂存区 使用git commit才会提交到当前分支
+git checkout —- file 放弃当前工作区的修改 eg: git checkout —- read.txt 
