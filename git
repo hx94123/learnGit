@@ -1,0 +1,10 @@
+Git指令：
+git init
+git add
+git commit
+git status
+git diff
+git log
+git reset --hard HEAD^
+git reflog
+git reset --hard 提交id
