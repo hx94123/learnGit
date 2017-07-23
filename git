@@ -5,9 +5,9 @@ git commit
 git status
 git diff
 git log
-git reset --hard HEAD^
+git reset --hard HEAD^ //重回版本
 git reflog
-git reset --hard 提交id
+git reset --hard 提交id //重回该id的版本
 注意：git add是把修改的内容从工作区添加到暂存区 使用git commit才会提交到当前分支
-git checkout —- file 放弃当前工作区的修改 eg: git checkout —- read.txt（回到工作区或者暂存区的原始状态）
-git reset HEAD file 把暂存区的修改回退到工作区
+git checkout —- file //放弃当前工作区的修改 eg: git checkout —- read.txt（回到工作区或者暂存区的原始状态）
+git reset HEAD file //把暂存区的修改回退到工作区
